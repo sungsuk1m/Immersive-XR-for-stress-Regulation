@@ -6,8 +6,6 @@ Immerisve XR for Stress Regulation brings music, imagery, and everyday activitie
 
 ![Start window with the welcome panel and virtual hands](docs/images/start-window.png)
 
-*Start window*
-
 ## The experience
 
 Users choose what to engage with and can switch activities at their own pace.
@@ -30,8 +28,6 @@ Users enter their current stress level on a 0–100 slider. The displayed rating
 
 ![Stress checker with a rating slider and auditory and visual stimuli toggles](docs/images/stress-checker.png)
 
-*Stress checker*
-
 **TODO:** use ECG data as an input to the stress checker. The current version uses manual ratings.
 
 ### Music and imagery
@@ -47,8 +43,6 @@ Music selection uses three stress ranges:
 The track is selected when music is enabled. After changing the stress rating, turn music off and on to apply the new selection. These associations are an initial design choice for the prototype.
 
 Images are selected manually. Enable the image panel, grab it, and press the controller trigger to cycle to the next image.
-
-*Suggested image: The image panel in the room, with small previews of the three available images beside it.*
 
 ### Pet interactions
 
@@ -85,8 +79,6 @@ Disabling **Pet** hides the dog. Toggling the activity also restores it to its s
 Connect your headset to the computer and start its PC VR software. In Unity's Hierarchy, expand **-- XR --** and disable **XR Device Simulator** using the checkbox beside its name in the Inspector. Enter Play mode to use the headset and controllers.
 
 Use the controller grip to pick up objects and the trigger to press UI buttons or activate a held object. Hold the primary button to point at menus. The secondary button opens the stress panel and lets you stand up when seated.
-
-*Suggested image: A labeled photo or diagram of the controllers used for the demo, identifying the grip, trigger, primary button, and secondary button.*
 
 | Action | VR controller | Keyboard and mouse |
 | --- | --- | --- |
